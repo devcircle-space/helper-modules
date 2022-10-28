@@ -1,0 +1,24 @@
+{
+  "name": "@devdesigner/helper-modules",
+  "version": "1.0.0",
+  "description": "Collection of commonly used helper modules written in TypeScript",
+  "main": "./dist/index.js",
+  "type": "module",
+  "typings": "./dist/@types",
+  "files": [
+    "dist",
+    "README.md",
+    "package.json"
+  ],
+  "scripts": {
+    "pre-compile": "rm -rf ./dist",
+    "compile": "npx tsc",
+    "build": "npm run pre-compile && npm run compile"
+  },
+  "author": "Aakash Jha <thedevdesigner@gmail.com> (https://www.thedevdesigner.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.11.7",
+    "typescript": "^4.8.4"
+  }
+}
