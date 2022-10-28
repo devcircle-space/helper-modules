@@ -1,3 +1,8 @@
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/the-devdesigner/helper-modules/Build?style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/the-devdesigner/helper-modules?style=flat-square)
+![NPM](https://img.shields.io/npm/l/@thedevdesigner/helper-modules?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/the-devdesigner/helper-modules?color=orange&style=flat-square)
+
 # @thedevdesigner/helper-modules
 
 <span style="font-size: 20px">A collection of commonly used helper modules written in TypeScript</span>
