@@ -1,10 +1,6 @@
-# @thedevdesigner Helper Modules
+# @thedevdesigner/helper-modules
 
-A collection of commonly used helper modules written in TypeScript
-
-## Inspiration/Motivation
-
-While working on projects, there are times when I write same/similar code that I had written many times before. Therefore, it only made sense to create a helper package to get out of this loop of writing the same code again and again, to improve productivity and adopt the modular approach.
+<span style="font-size: 20px">A collection of commonly used helper modules written in TypeScript</span>
 
 ## Tech Stack
 
@@ -19,7 +15,17 @@ While working on projects, there are times when I write same/similar code that I
 
 ```typescript
 // by using the import syntax
-import { EncryptDecrypt } from '@thedevdesigner/helper-modules'
+import { EncryptDecrypt } from "@thedevdesigner/helper-modules";
 // by using require keyword
-const { EncryptDecrypt } = require('@thedevdesigner/helper-modules')
+const { EncryptDecrypt } = require("@thedevdesigner/helper-modules");
 ```
+
+## Motivation
+
+While working on projects, there are times when I write same/similar code that I had written many times before. Therefore, it only made sense to create a helper package to get out of this loop of writing the same code again and again, to improve productivity and adopt the modular approach.
+
+## Issues
+
+Please add new issues [here]
+
+[here]: https://github.com/the-devdesigner/helper-modules/issues
