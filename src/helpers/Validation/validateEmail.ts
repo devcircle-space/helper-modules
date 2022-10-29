@@ -6,6 +6,7 @@ const PATTERN = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
  * @returns A boolean value.
  */
 const validateEmail = (email: string) => {
+	if (!email) return false;
 	if (PATTERN.test(email)) return true;
 	return false;
 };
