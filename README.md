@@ -20,9 +20,9 @@
 
 ```typescript
 // by using the import syntax
-import { EncryptDecrypt } from "@thedevdesigner/helper-modules";
+import { generatePasswordHash } from "@thedevdesigner/helper-modules";
 // by using require keyword
-const { EncryptDecrypt } = require("@thedevdesigner/helper-modules");
+const { generatePasswordHash } = require("@thedevdesigner/helper-modules");
 ```
 
 ## Motivation
